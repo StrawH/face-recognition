@@ -160,23 +160,4 @@ class FaceRecognition:
                 if cv2.waitKey(10) & 255 == ord('s'):
                     break
 
-    # def run_the_face_detection(self):
-    #     camera = cv2.VideoCapture(0)
-    #     while True:
-    #         ret, camera_image = camera.read()
-    #         gray_image = cv2.cvtColor(camera_image, cv2.COLOR_BGR2GRAY)
-    #         faces = self.Face_Cascade.detectMultiScale(gray_image)
-    #
-    #         for x, y, w, h in faces:
-    #             cv2.rectangle(camera_image, (x, y), (x + w, y + h), color=(255, 255, 255), thickness=2)
-    #
-    #         cv2.imshow('Mugiwara', camera_image)
-    #
-    #         if cv2.waitKey(50) & 255 == ord('s'):
-    #             break
-    #
-    #
-    #
-    #
-    #     cv2.destroyAllWindows()
 
